@@ -1,0 +1,15 @@
+.pdf-document {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  border-radius: 1%;
+  /* Remove flex/centering so only the document is shown */
+}
+
+.pdf-page {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1%;
+}
